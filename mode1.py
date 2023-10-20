@@ -3,7 +3,13 @@ from data_structures.bst import *
 
 class Mode1Navigator:
     """
-    Student-TODO: short paragraph as per https://edstem.org/au/courses/12108/lessons/42810/slides/294117
+    ADT Used --> Binary Search Tree.
+    Reasoning:
+        This would allow each instance of this class to be able to sort
+        and traverse through the Islands as efficiently and seemlessly
+        as possible, while also adhering to the coomplexity requirements.
+        
+    
     """
 
     def __init__(self, islands: list[Island], crew: int) -> None:
